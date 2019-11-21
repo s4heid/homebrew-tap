@@ -1,10 +1,10 @@
 cask 'synoptico' do
-  version 'v0.3.1'
-  sha256 '0d9d3a5247c27335d1bdf3d661d031c2a5af598edb30659a80ad5e49ec2d3db0'
+  version '0.3.2'
+  sha256 '9645e96d2c9b6e5f2c23bef139627979930406bfbdaf5b2fcb329e31d356d6bf'
 
-  url "https://github.com/friegger/synoptico/releases/download/#{version}/Synoptico-darwin-x64-0.3.1.zip"
+  url "https://github.com/friegger/synoptico/releases/download/v#{version}/Synoptico-darwin-x64-#{version}.zip"
   name 'Synoptico'
   homepage 'https://github.com/friegger/synoptico'
 
-  app 'Synoptico-darwin-x64-0.3.1/Synoptico.app'
+  app "Synoptico-darwin-x64-#{version}/Synoptico.app"
 end
